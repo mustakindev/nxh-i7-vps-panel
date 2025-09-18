@@ -1,0 +1,18 @@
+{
+  "name": "nxh-i7-backend",
+  "version": "1.0.0",
+  "description": "Backend for nxh-i7 VPS Panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "createuser": "node scripts/createUser.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dockerode": "^4.0.1",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.6"
+  }
+}
